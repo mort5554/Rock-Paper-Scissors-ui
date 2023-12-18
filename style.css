@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    background-color: rgb(165, 160, 160);
+}
+.nameContainer{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    padding: 1px;
+    color: rgb(14, 14, 83);
+}
+.scoreContainer{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.choises{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+.signContainer{
+    display: flex;
+    justify-content: center;
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#rock,
+#paper,
+#scissors{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+}
